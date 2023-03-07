@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get("/", (req, res) => {
-	res.send('Halo from Cloud Run!');
+	res.send('Willy-desu from Cloud Run!');
 });
 
 const PORT = process.env.PORT || 8080;
